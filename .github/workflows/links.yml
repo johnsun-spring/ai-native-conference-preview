@@ -1,0 +1,76 @@
+name: Check links
+
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+  # Disable this for now, add this if you think you'll watch it and respond to errors.
+  # # Run weekly to catch external URLs that go dead over time.
+  # schedule:
+  #   - cron: '0 9 * * 1'  # Every Monday at 09:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  # Group by PR number or branch name or run ID to avoid duplicate runs.
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref || github.run_id }}
+  # Safe to cancel in-progress runs since this is not a critical job and does not run on main branch..
+  cancel-in-progress: true
+
+jobs:
+  links:
+    name: Check links
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build site
+        # Run the build so vendored/minified assets exist before link-checking.
+        run: npm run build
+
+      - name: Check internal links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --root-dir ${{ github.workspace }}
+            --offline
+            --no-progress
+            --exclude '^#'
+            --exclude-path includes
+            --exclude-path development
+            --exclude-path ai-native-conference-2025
+            './**/*.html'
+          # Fail the job if any broken internal link is found.
+          fail: true
+
+      - name: Check external links
+        # External checks run separately so transient network failures or
+        # rate-limiting don't block PRs. The step is allowed to fail.
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --exclude '^#'
+            --exclude 'googletagmanager\.com'
+            --exclude 'js\.convertflow\.co'
+            --exclude-path includes
+            --exclude-path development
+            --exclude-path ai-native-conference-2025
+            --timeout 20
+            './**/*.html'
+          fail: false
+        continue-on-error: true
