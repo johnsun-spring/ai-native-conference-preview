@@ -1,0 +1,671 @@
+{
+  "mainStage2026": [
+    {
+      "id": "2026-view-from-top",
+      "time": "9:10 – 9:40 AM",
+      "tag": "Keynote Conversation",
+      "type": "keynote",
+      "title": "AI and the Appearance of Oversight",
+      "speakers": ["mike-hsu", "phil-goldfeder"]
+    },
+    {
+      "id": "2026-small-business-lending",
+      "time": "11:25 AM – 12:05 PM",
+      "tag": "Panel",
+      "type": "panel",
+      "title": "Main Street Meets the Machine: Agentic AI in Small Business Lending",
+      "speakers": ["sarvesh-baveja", "mike-failor"],
+      "moderator": "kim-gerhardt"
+    },
+    {
+      "id": "2026-ai-financial-partner",
+      "time": "12:10 – 12:35 PM",
+      "tag": "Fireside Chat",
+      "type": "fireside",
+      "title": "Building an AI Financial Partner Inside the Primary Account",
+      "speakers": ["jeff-currier", "alex-johnson"]
+    },
+    {
+      "id": "2026-cutting-costs-growing-revenue",
+      "time": "2:45 – 3:25 PM",
+      "tag": "Panel",
+      "type": "panel",
+      "title": "From Cutting Costs to Growing Revenue: The New Playbook for AI-Native Banks",
+      "speakers": ["marc-rehberger"],
+      "moderator": "carey-ransom"
+    },
+    {
+      "id": "2026-agentic-ai-reality-check",
+      "time": "9:45 – 10:25 AM",
+      "tag": "Panel",
+      "type": "panel",
+      "title": "The Agentic AI Reality Check: What Banks and Fintechs Are Doing in 2026",
+      "moderator": "aaron-kouhoupt"
+    },
+    {
+      "id": "2026-bank-grade-ai",
+      "time": "1:30 – 1:55 PM",
+      "tag": "Case Study",
+      "type": "case-study",
+      "title": "What Bank Grade AI Looks Like Inside an Innovative Bank",
+      "moderator": "ryan-christiansen"
+    },
+    {
+      "id": "2026-beyond-guardrails",
+      "time": "2:00 – 2:40 PM",
+      "tag": "Panel",
+      "type": "panel",
+      "title": "Beyond Guardrails: How Can We Ensure Our AI Agents Are Secure",
+      "moderator": "peter-renton"
+    },
+    {
+      "id": "2026-ai-risks-banking",
+      "time": "4:15 – 4:55 PM",
+      "tag": "Panel",
+      "type": "panel",
+      "title": "What New Risks Does Agentic AI Bring to Banking",
+      "moderator": "karin-lockovitch"
+    }
+  ],
+  "days": [
+    {
+      "id": "2024",
+      "title": "2024 Conference",
+      "date": "October 7, 2024",
+      "location": "Salt Lake City, Utah",
+      "attendees": 320,
+      "sessions": [
+        {
+          "id": "2024-registration",
+          "time": "8:00 AM",
+          "title": "Breakfast & Registration",
+          "type": "break"
+        },
+        {
+          "id": "2024-opening",
+          "time": "9:00 AM",
+          "duration": "5 minutes",
+          "title": "Opening Remarks",
+          "type": "keynote",
+          "speakers": ["John Sun - Co-founder & CEO, Spring Labs"]
+        },
+        {
+          "id": "2024-governor",
+          "time": "9:05 AM",
+          "duration": "5 minutes",
+          "title": "Intro Message from The Governor",
+          "type": "keynote",
+          "speakers": ["Spencer J. Cox - Governor of Utah"]
+        },
+        {
+          "id": "2024-breaking-barriers",
+          "time": "9:10 AM",
+          "duration": "25 minutes",
+          "title": "Breaking Barriers: Accelerating AI Adoption in Financial Institutions",
+          "type": "keynote",
+          "speakers": ["Al Goldstein - Founder, Chairman & CEO, StoicLane Inc.", "Walter J. Mix III - Former California Banking Commissioner"],
+          "moderator": "Alex Johnson - Founder, Fintech Takes"
+        },
+        {
+          "id": "2024-cx-revolution",
+          "time": "9:35 AM",
+          "duration": "40 minutes",
+          "title": "The CX Revolution: AI Copilots for Process Automation in Financial Services",
+          "description": "Transforming customer experience and operational efficiency through AI-powered process automation in financial institutions.",
+          "track": "AI-Native Stage",
+          "type": "panel",
+          "speakers": ["Paul Zhang - Co-founder & CIO, Avant", "Margaret Mayer - CTO, Zions Bank", "Jordan Wright - Co-founder & CEO, Atomic"],
+          "moderator": "Phil Goldfeder - CEO, American Fintech Council"
+        },
+        {
+          "id": "2024-complaint-resolution",
+          "time": "9:35 AM",
+          "duration": "40 minutes",
+          "title": "Complaint Resolution Reimagined: The AI-powered Complaint Management System",
+          "description": "Revolutionizing complaint handling in financial institutions through AI-driven systems that enhance efficiency and customer satisfaction.",
+          "track": "Compliance Track",
+          "type": "panel",
+          "speakers": ["Brian Enneking - COO, First Electronic Bank", "Laurie Payne - VP Strategic Partner Oversight, WebBank", "Loren Andersen - Head of Customer Operations, Avant"],
+          "moderator": "Dan Chang - General Counsel & Chief Compliance Officer, Splash Financial Inc."
+        },
+        {
+          "id": "2024-coffee-1",
+          "time": "10:15 AM",
+          "title": "Coffee Break",
+          "type": "break"
+        },
+        {
+          "id": "2024-early-warning",
+          "time": "10:30 AM",
+          "duration": "25 minutes",
+          "title": "AI-Powered Early Warning Systems: Accelerating AI Detection of Regulatory Risks in Consumer Interactions Before They Escalate",
+          "description": "Leveraging AI to proactively identify and mitigate regulatory risks in consumer interactions, ensuring compliance and preventing escalations.",
+          "track": "AI-Native Stage",
+          "type": "session",
+          "speakers": ["Derek Higginbotham - President & CEO, First Electronic Bank"],
+          "moderator": "John Beccia - Co-founder & CEO, FS Vector"
+        },
+        {
+          "id": "2024-ai-workshop",
+          "time": "10:30 AM",
+          "duration": "25 minutes",
+          "title": "AI Workshop: From Machine Learning to Large Language Models in Fintech & Banking",
+          "description": "Learn about the history of AI, the differences between traditional machine learning and modern AI, and how recent advancements are reshaping customer experience in fintech and banking.",
+          "track": "Compliance Track",
+          "type": "workshop",
+          "speakers": ["Peyman Hesami - Chief Product Officer, Spring Labs", "Nuwan Bandara - Sr. Manager Solutions Architecture, Amazon Web Services"]
+        },
+        {
+          "id": "2024-future-fintech",
+          "time": "11:00 AM",
+          "duration": "40 minutes",
+          "title": "The Future of Fintech: How AI is Expanding Fair Access to Credit",
+          "description": "How AI is democratizing credit access by enabling more accurate risk assessment and personalized financial products.",
+          "track": "AI-Native Stage",
+          "type": "panel",
+          "speakers": ["Kareem Saleh - Founder & CEO, Fairplay", "Rhett Roberts - Co-founder & CEO, LoanPro", "Julapa Jagtiani - Senior Economic Advisor and Economist, Philadelphia Fed Reserve", "Annie Delgado - Chief Risk Officer, Upstart"],
+          "moderator": "Evan Weinberger - Correspondent, Bloomberg"
+        },
+        {
+          "id": "2024-smb-compliance",
+          "time": "11:00 AM",
+          "duration": "40 minutes",
+          "title": "AI-Driven Compliance in SMB Lending: Managing Risk and Enhancing Customer Experience",
+          "description": "Discover how AI helps manage risk and ensure compliance in the growing SMB lending sector. Explore AI's role in streamlining KYB and complaint monitoring to deliver scalable, reliable solutions that improve customer experience.",
+          "track": "Compliance Track",
+          "type": "panel",
+          "speakers": ["Pooja Elhance - VP of Compliance, Bluevine Inc.", "Ryan Hildebrand - EVP & Chief Innovation Officer, Bankwell", "Brock Blake - Founder, Lendio"],
+          "moderator": "Anna Fridman - Co-founder, Spring Labs"
+        },
+        {
+          "id": "2024-lunch",
+          "time": "11:45 AM",
+          "duration": "1 hour",
+          "title": "Lunch Break",
+          "type": "break"
+        },
+        {
+          "id": "2024-consumer-good",
+          "time": "12:45 PM",
+          "duration": "30 minutes",
+          "title": "AI for Consumer Good: Redefining Financial Services",
+          "description": "Exploring how AI is reshaping financial services to deliver enhanced value and accessibility to consumers.",
+          "type": "keynote",
+          "speakers": ["Travis Hill - Vice Chairman of the Board of Directors, FDIC"],
+          "moderator": "Phil Goldfeder - CEO, American Fintech Council"
+        },
+        {
+          "id": "2024-gen-ai",
+          "time": "1:20 PM",
+          "duration": "40 minutes",
+          "title": "Generative AI Transparency: State and Federal Legislative Approaches",
+          "description": "Understanding the implications of the regulations for generative AI use in financial services and strategies for ensuring transparency.",
+          "track": "AI-Native Stage",
+          "type": "panel",
+          "speakers": ["Zach Boyd, PhD - Director, Utah Office of Artificial Intelligence", "Anne Romatowski - Markets Program Manager, CFPB", "Robert Savoie - Member, Chair of Fintech Practice Group, McGlinchey Stafford", "Kirk Cullimore - State Senator, Utah"],
+          "moderator": "Nate Schmitt - General Counsel, Spring Labs"
+        },
+        {
+          "id": "2024-emerging-trends",
+          "time": "1:20 PM",
+          "duration": "40 minutes",
+          "title": "The Emerging AI Trends: How AI is Enabling New Financial Products and Services",
+          "description": "Exploring cutting-edge AI applications that are driving the creation of innovative financial products and services.",
+          "track": "Compliance Track",
+          "type": "panel",
+          "speakers": ["Emily Reisig - SVP Emprise Embedded Strategic Relationship Leader, Emprise Bank", "Carson Lappetito - President, BankTech & Sunwest", "Michael Umlauf - SVP of Data Science, TransUnion", "Saurabh Bajaj - Chief Product Officer, Oscilar"]
+        },
+        {
+          "id": "2024-risk-governance",
+          "time": "2:05 PM",
+          "duration": "40 minutes",
+          "title": "Balancing AI Innovation with Risk & Governance: Strategies for Compliant AI Deployments",
+          "description": "Navigating the delicate balance between AI-driven innovation and stringent data privacy requirements in financial services.",
+          "track": "AI-Native Stage",
+          "type": "panel",
+          "speakers": ["Benjamin Melnicki - Chief Compliance Officer, Cross River", "Maria-Kristina Hayden - Founder & CEO, Outfoxm", "Reena Bajowala - Shareholder, Greenberg Traurig, LLP", "Jesse Honigberg - EVP Product and Platforms, Customers Bank"],
+          "moderator": "Mark Burnside - Director, Forvis Mazars"
+        },
+        {
+          "id": "2024-coffee-2",
+          "time": "2:45 PM",
+          "duration": "15 minutes",
+          "title": "Coffee Break",
+          "type": "break"
+        },
+        {
+          "id": "2024-regulatory",
+          "time": "3:20 PM",
+          "duration": "40 minutes",
+          "title": "Navigating the New Normal: Regulatory Approaches to Complaint Monitoring",
+          "description": "Adapting to the evolving regulatory approach to complaint monitoring through AI-powered solutions.",
+          "track": "AI-Native Stage",
+          "type": "panel",
+          "speakers": ["Armen Meyer - Co-founder, American Fintech Council", "Matt Scarborough - Co-founder & CEO, Bridgeforce", "Laurel Loomis Rimon - Partner, Jenner & Block", "Ashwin Vasan - Senior Advisor, FS Vector"],
+          "moderator": "Vince Wilson - Regulatory Counsel, Lead Bank"
+        },
+        {
+          "id": "2024-smb-risk",
+          "time": "3:20 PM",
+          "duration": "40 minutes",
+          "title": "AI's Role in Streamlining Entity Risk Profiling",
+          "description": "Enhancing the accuracy and efficiency of business risk assessment through AI-powered profiling techniques.",
+          "track": "Compliance Track",
+          "type": "panel",
+          "speakers": ["Moody Hadi - Head of Credit Analytics New Product Development, S&P Global", "Jordan Esbin - Founder & CEO, Credit Pulse", "Will Tumulty - CEO, Rapid Finance"],
+          "moderator": "Steve Allocca - Former CEO, Funding Circle"
+        },
+        {
+          "id": "2024-bank-fintech",
+          "time": "4:05 PM",
+          "duration": "40 minutes",
+          "title": "AI's Role in Successful and Robust Bank-Fintech Partnerships",
+          "description": "Examining how AI facilitates and strengthens collaborations between banks and fintech companies, driving innovation and efficiency.",
+          "track": "AI-Native Stage",
+          "type": "panel",
+          "speakers": ["Andrew Owens - Partner, Steptoe", "Jim Jackson - SVP of Strategic Partner Oversight, WebBank", "Martha O'Malley - Assistant General Counsel, Prosper", "Ryan Christiansen - Executive Director, Stena Center for Financial Technology"],
+          "moderator": "Nik Milanovic - General Partner, The Fintech Fund"
+        },
+        {
+          "id": "2024-regtech",
+          "time": "4:05 PM",
+          "duration": "40 minutes",
+          "title": "Regulatory Tech (RegTech): AI's Role in Compliance Automation",
+          "description": "Streamlining complex compliance processes like Know Your Business, Know Your Customer, and Anti-Money Laundering through AI automation.",
+          "track": "Compliance Track",
+          "type": "panel",
+          "speakers": ["Mohamed Elgendy - Co-founder & CEO, Kolena", "Peter Piatetsky - Co-founder & CEO, Castellum.ai", "Ana Liza Grandner - Chief Payments Officer, First Bank of the Lake"],
+          "moderator": "Aleks Teichman - Principal, Brightcheck"
+        },
+        {
+          "id": "2024-demo-contest",
+          "time": "4:50 PM",
+          "duration": "15 minutes",
+          "title": "Demo Contest Finalists",
+          "type": "session"
+        },
+        {
+          "id": "2024-closing-keynote",
+          "time": "5:05 PM",
+          "duration": "20 minutes",
+          "title": "Getting Banks Comfortable with Generative AI: Tips to Take Away",
+          "type": "keynote",
+          "speakers": ["Dan Pillemer - CEO, CardWorks", "Brian W. Jones - President, Merrick Bank"]
+        },
+        {
+          "id": "2024-networking",
+          "time": "5:25 PM",
+          "duration": "90 minutes",
+          "title": "Networking, Happy Hour, & Appetizers",
+          "type": "break"
+        }
+      ]
+    },
+    {
+      "id": "2025",
+      "title": "2025 Conference",
+      "date": "September 30, 2025",
+      "location": "Salt Lake City, Utah",
+      "attendees": 380,
+      "sessions": [
+        {
+          "id": "2025-registration",
+          "time": "7:30 AM",
+          "duration": "90 minutes",
+          "title": "Registration & Breakfast",
+          "type": "break"
+        },
+        {
+          "id": "2025-welcome",
+          "time": "9:00 AM",
+          "duration": "5 minutes",
+          "title": "Welcome",
+          "type": "keynote",
+          "track": "Main Stage",
+          "speakers": ["Howard Headlee - President & CEO, Utah Bankers Association"]
+        },
+        {
+          "id": "2025-opening-remarks",
+          "time": "9:05 AM",
+          "duration": "5 minutes",
+          "title": "Opening Remarks with John Sun",
+          "type": "keynote",
+          "track": "Main Stage",
+          "speakers": ["John Sun - CEO & Co-Founder, Spring Labs"]
+        },
+        {
+          "id": "2025-governor",
+          "time": "9:10 AM",
+          "duration": "5 minutes",
+          "title": "UT Governor's Remarks",
+          "type": "keynote",
+          "track": "Main Stage",
+          "speakers": ["Spencer Cox - Governor of Utah"]
+        },
+        {
+          "id": "2025-opening-keynote",
+          "time": "9:15 AM",
+          "duration": "30 minutes",
+          "title": "Opening Keynote",
+          "type": "keynote",
+          "track": "Main Stage",
+          "speakers": ["Jonathan Gould - 32nd Comptroller of the Currency, OCC"],
+          "moderator": "Phil Goldfeder - CEO, American Fintech Council"
+        },
+        {
+          "id": "2025-efficiency-gains",
+          "time": "9:50 AM",
+          "duration": "40 minutes",
+          "title": "Where Banks Are Seeing the Biggest Efficiency Gains Today",
+          "type": "panel",
+          "track": "Main Stage",
+          "speakers": ["Jay Budzik - SVP, Director AI/ML Model Development, Fifth Third", "Wade Robison - Chief Risk Officer, Square Financial Services", "Josh Suen - Leader, Commercial Bank AI Strategy, KeyBank", "Brandon Thomas - Chief Data Officer, Zions Bancorporation"],
+          "moderator": "Derek Higginbotham - Senior Advisor, Klaros Group"
+        },
+        {
+          "id": "2025-complaint-management",
+          "time": "9:50 AM",
+          "duration": "40 minutes",
+          "title": "How Sponsor Banks and Fintechs are Using AI for Complaint Management",
+          "type": "panel",
+          "track": "Case Studies Stage",
+          "speakers": ["Mike Edwards - VP Compliance Advisory, First Electronic Bank", "Omar Torresola - Principal Product Manager, Upgrade", "Jorden Hunter - Customer Trust Manager, Mercury", "Daniel Chang - General Counsel & CCO, Thread Bank"],
+          "moderator": "Kevin Lewis - Co-Founder & CRO, Spring Labs"
+        },
+        {
+          "id": "2025-ai-open-banking",
+          "time": "10:35 AM",
+          "duration": "25 minutes",
+          "title": "Innovation at the Intersection of AI and Open Banking",
+          "type": "panel",
+          "track": "Main Stage",
+          "speakers": ["Dan Murphy - Founder, Sunset Park Advisors", "Jane Barratt - Chief Advocacy Officer, MX"],
+          "moderator": "Peter Renton - CEO, Renton & Co"
+        },
+        {
+          "id": "2025-payments-platform",
+          "time": "10:35 AM",
+          "duration": "25 minutes",
+          "title": "Building AI Workflows for a Global Payments Platform",
+          "type": "session",
+          "track": "Case Studies Stage",
+          "speakers": ["Andreas Fast - Director of Finance Solutions, Qubika"]
+        },
+        {
+          "id": "2025-ai-automation",
+          "time": "11:05 AM",
+          "duration": "40 minutes",
+          "title": "AI-Native Automation for Frontline and Back Office in Financial Services",
+          "type": "panel",
+          "track": "Main Stage",
+          "speakers": ["Omar Torresola - Principal Product Manager, Upgrade", "Elizabeth O'Connor - SVP Operations, Self Inc", "Eric Nevels - Senior Director Operational Support, TrueAccord", "Margaret Mayer - Chief Technology Officer, Zions Bancorporation"],
+          "moderator": "Peyman Hesami - Co-Founder & CPTO, Spring Labs"
+        },
+        {
+          "id": "2025-regulatory-risk",
+          "time": "11:05 AM",
+          "duration": "40 minutes",
+          "title": "Navigating Regulatory Risk for New AI Programs",
+          "type": "panel",
+          "track": "Case Studies Stage",
+          "speakers": ["Dr. Zach Boyd, PhD - Director, Office of AI Policy, State of Utah", "Ray Baxter - Director of IT Risk & Compliance, Forvis Mazars"],
+          "moderator": "Shaun Harms - Principal, Forvis Mazars"
+        },
+        {
+          "id": "2025-lunch",
+          "time": "11:45 AM",
+          "duration": "60 minutes",
+          "title": "Lunch",
+          "type": "break"
+        },
+        {
+          "id": "2025-bank-regulators",
+          "time": "12:45 PM",
+          "duration": "30 minutes",
+          "title": "How Bank Regulators Can and Should Be Using AI",
+          "type": "session",
+          "track": "Main Stage",
+          "speakers": ["Raj Date - Managing Partner, Fenway Summer"],
+          "moderator": "Alex Johnson - Founder, Fintech Takes"
+        },
+        {
+          "id": "2025-ai-in-action",
+          "time": "1:20 PM",
+          "duration": "40 minutes",
+          "title": "AI in Action: Use Cases From the Leading Banks and Fintechs",
+          "type": "panel",
+          "track": "Main Stage",
+          "speakers": ["Vishal Kapoor - SVP Product, Affirm", "Pravesh Rijal - Chief Data & AI Officer, Cross River Bank", "Ryan Wiggins - VP of Product, Mercury", "Kenzie Mexican - SVP & Deputy CCO, FinWise Bank"],
+          "moderator": "Robert Savoie - Partner, McGlinchey Stafford, PLLC"
+        },
+        {
+          "id": "2025-ai-agents",
+          "time": "1:20 PM",
+          "duration": "40 minutes",
+          "title": "Using AI Agents in Banking for Fraud, Testing and Deployment",
+          "type": "panel",
+          "track": "Case Studies Stage",
+          "speakers": ["Saurabh Bajaj - Chief Product Officer, Oscilar", "Mehdi Jamei - Co-Founder & CEO, Veris AI", "David Moscatelli - CEO, Abacus"],
+          "moderator": "Madeline Fredin - VP Strategic Partnerships, Alloy Labs"
+        },
+        {
+          "id": "2025-compliance-automation",
+          "time": "2:05 PM",
+          "duration": "40 minutes",
+          "title": "Compliance Automation: Complaints, AML, Testing and More",
+          "type": "panel",
+          "track": "Main Stage",
+          "speakers": ["Robert Marx - VP of Compliance, WebBank", "Matt Scarborough - CEO & CTO, Bridgeforce", "Laurel Rimon - Partner, Jenner & Block", "Alec Crawford - Founder & CEO, AI Risk Inc."],
+          "moderator": "Megan Nicholls - Partner, Hudson Cook"
+        },
+        {
+          "id": "2025-credit-infrastructure",
+          "time": "2:05 PM",
+          "duration": "40 minutes",
+          "title": "Redefining The Consumer Credit Infrastructure With Real-Time Data and Agentic AI",
+          "type": "panel",
+          "track": "Case Studies Stage",
+          "speakers": ["Tomás Campos - Co-Founder & CEO, Spinwheel", "Bhanu Arora - Chief Risk Officer, LendKey"],
+          "moderator": "Kim Gerhardt - Owner, The FinTech Interactive"
+        },
+        {
+          "id": "2025-coffee",
+          "time": "2:45 PM",
+          "duration": "30 minutes",
+          "title": "Coffee Break",
+          "type": "break",
+          "sponsor": "Jenner & Block"
+        },
+        {
+          "id": "2025-ai-bias",
+          "time": "3:20 PM",
+          "duration": "40 minutes",
+          "title": "Mitigating AI Risks: Addressing Bias and Compliance with Today's AI Models",
+          "type": "panel",
+          "track": "Main Stage",
+          "speakers": ["Kareem Saleh - Founder & CEO, FairPlay", "Annie Delgado - Chief Risk Officer, Upstart", "Martha O'Malley - Assistant General Counsel, Prosper", "Elisabeth Bohlmann - Managing Director, Qubika"],
+          "moderator": "Marc Rasich - Shareholder, Greenberg Traurig"
+        },
+        {
+          "id": "2025-smb-lending",
+          "time": "3:20 PM",
+          "duration": "40 minutes",
+          "title": "Beyond the Buzz: How Deep Integration of AI into Foundational Banking Infrastructure is Transforming Small Business Lending",
+          "type": "panel",
+          "track": "Case Studies Stage",
+          "speakers": ["Abby Sleight - Director of Data & AI, Lendio", "Josh Christensen - Director, Growth Equity, Mercato"],
+          "moderator": "Trent Miskin - Co-Founder & CPO, Lendio"
+        },
+        {
+          "id": "2025-vc-investors",
+          "time": "4:05 PM",
+          "duration": "40 minutes",
+          "title": "What Are VC Investors Looking For Today?",
+          "type": "panel",
+          "track": "Main Stage",
+          "speakers": ["Susan Ehrlich - Partner, Core Innovation Capital", "Nik Milanovic - Founder, This Week in Fintech", "Carey Ransom - Managing Director, BankTech Ventures", "Katherine Zhang - Partner, Lightspeed Ventures"],
+          "moderator": "Ryan Christiansen - Executive Director, Stena Center for Financial Technology"
+        },
+        {
+          "id": "2025-ai-aml",
+          "time": "4:05 PM",
+          "duration": "40 minutes",
+          "title": "AI-Powered AML: Real-World Applications and Client Success Stories",
+          "type": "session",
+          "track": "Case Studies Stage",
+          "speakers": ["Kunal Datta - Head of Product, Unit21"]
+        },
+        {
+          "id": "2025-risk-tolerance",
+          "time": "4:50 PM",
+          "duration": "20 minutes",
+          "title": "Reality of AI – Will Adjusting AI Risk Tolerance be Necessary to Fully Enable It?",
+          "type": "panel",
+          "track": "Main Stage",
+          "speakers": ["Karin Lockovitch - Partner, Oliver Wyman", "John Sun - CEO & Co-Founder, Spring Labs", "Walt Zalenski - Partner, Orrick"]
+        },
+        {
+          "id": "2025-closing",
+          "time": "5:10 PM",
+          "duration": "5 minutes",
+          "title": "Closing Remarks",
+          "type": "keynote",
+          "track": "Main Stage",
+          "speakers": ["John Sun - CEO & Co-Founder, Spring Labs"]
+        },
+        {
+          "id": "2025-happy-hour",
+          "time": "5:15 PM",
+          "duration": "75 minutes",
+          "title": "Happy Hour",
+          "type": "break"
+        }
+      ],
+      "demoRoom": [
+        {
+          "id": "2025-demo-kobalt",
+          "time": "11:05 AM",
+          "duration": "7 minutes",
+          "title": "Demo - Kobalt Labs",
+          "speaker": "Kalyani Ramadurgam - CEO, Kobalt Labs"
+        },
+        {
+          "id": "2025-demo-castellum",
+          "time": "11:15 AM",
+          "duration": "7 minutes",
+          "title": "Demo - Castellum.AI",
+          "speakers": ["Peter Piatetsky - CEO, Castellum.AI", "Morgan Loewith - Head of Product, Castellum.AI", "Conor Gleeson - GM Enterprise, Castellum.AI"]
+        },
+        {
+          "id": "2025-demo-cardamon",
+          "time": "11:25 AM",
+          "duration": "7 minutes",
+          "title": "Demo - Cardamon.ai",
+          "speaker": "Areg Nzsdejan - CEO & Co-Founder, Cardamon"
+        },
+        {
+          "id": "2025-demo-veris",
+          "time": "11:35 AM",
+          "duration": "7 minutes",
+          "title": "Demo - Veris.AI",
+          "speaker": "Andi Partovi - CTO & Co-Founder, Veris.ai"
+        },
+        {
+          "id": "2025-demo-bond",
+          "time": "1:20 PM",
+          "duration": "7 minutes",
+          "title": "Demo - BOND.AI",
+          "speaker": "Jared Landrum - VP Growth, BOND.AI"
+        },
+        {
+          "id": "2025-demo-bridgeforce",
+          "time": "1:30 PM",
+          "duration": "7 minutes",
+          "title": "Demo - Bridgeforce",
+          "speaker": "Jason Cohenford - VP of Product Design, Bridgeforce Data Solutions"
+        },
+        {
+          "id": "2025-demo-omniai",
+          "time": "1:40 PM",
+          "duration": "7 minutes",
+          "title": "Demo - OmniAI",
+          "speaker": "Tyler Maran - CEO & Co-Founder, OmniAI"
+        },
+        {
+          "id": "2025-demo-arva",
+          "time": "1:50 PM",
+          "duration": "7 minutes",
+          "title": "Demo - Arva AI",
+          "speaker": "Rhim Shah - Co-Founder & CEO, Arva AI"
+        },
+        {
+          "id": "2025-demo-aiprise",
+          "time": "2:00 PM",
+          "duration": "7 minutes",
+          "title": "Demo - AiPrise",
+          "speaker": "Chaitanya Sarda - CEO & Co-Founder, AiPrise Inc."
+        },
+        {
+          "id": "2025-demo-sympera",
+          "time": "2:10 PM",
+          "duration": "7 minutes",
+          "title": "Demo - Sympera AI",
+          "speaker": "Sudarshan Krishnan - Head of GTM, Sympera AI"
+        },
+        {
+          "id": "2025-demo-springlabs",
+          "time": "2:20 PM",
+          "duration": "7 minutes",
+          "title": "Demo - Spring Labs",
+          "speaker": "Michael McGory"
+        }
+      ],
+      "deepDiveRoundtables": [
+        {
+          "id": "2025-roundtable-1",
+          "time": "10:00 AM",
+          "duration": "50 minutes",
+          "title": "The Intersection of Diligence and AI: Strategies for Investment and Adoption",
+          "location": "Suite 1 - Level 2",
+          "sponsor": "Greenberg Traurig",
+          "speakers": ["Marc Rasich - Shareholder, Greenberg Traurig", "Bryan Hanks - Shareholder, Greenberg Traurig"]
+        },
+        {
+          "id": "2025-roundtable-2",
+          "time": "11:00 AM",
+          "duration": "50 minutes",
+          "title": "AI-Driven Financial Products: Fair Lending, Compliance, and Consumer Protection in Consumer Finance",
+          "location": "Suite 1 - Level 2",
+          "sponsor": "McGlinchey Stafford, PLLC",
+          "speakers": ["Aaron Kouhoupt - Member, McGlinchey Stafford, PLLC"]
+        },
+        {
+          "id": "2025-roundtable-3",
+          "time": "2:30 PM",
+          "duration": "50 minutes",
+          "title": "Generative AI in Fraud & FinCrime: Where Risk Teams See Real Value",
+          "location": "Suite 1 - Level 2",
+          "sponsor": "Oscilar",
+          "speakers": ["Saurabh Bajaj - Chief Product Officer, Oscilar"]
+        },
+        {
+          "id": "2025-roundtable-4",
+          "time": "3:30 PM",
+          "duration": "50 minutes",
+          "title": "What Role Should Legal and Compliance Teams Play in Gen AI Model Development and Monitoring?",
+          "location": "Suite 1 - Level 2",
+          "sponsor": "Hudson Cook",
+          "speakers": ["Megan Nicholls - Partner, Hudson Cook"]
+        }
+      ]
+    }
+  ],
+  "preParty": {
+    "name": "Pre-Conference Party at Topgolf",
+    "date": "Night before each conference",
+    "time": "6pm - 9pm",
+    "description": "Available to all registered attendees. Free event but you must register in advance.",
+    "sponsor2025": "Forvis Mazars",
+    "image": "images/Top-Golf-Salt-Lake-City.jpeg"
+  }
+}

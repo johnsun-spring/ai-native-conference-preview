@@ -1,0 +1,848 @@
+<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Wed Jan 07 2026 20:37:01 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="695ec3c9f5535f4b3efe8e4d" data-wf-site="695ec3c8f5535f4b3efe8d84" lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>AI-Native Banking &amp; Fintech Conference 2026 | Salt Lake City</title>
+  <meta content="The leading event for AI applications in banking and fintech. September 29, 2026 at University of Utah, Salt Lake City." name="description">
+  <meta content="AI-Native Banking &amp; Fintech Conference 2026" property="og:title">
+  <meta content="The leading event for AI applications in banking and fintech. No fluff, just real-world use cases." property="og:description">
+  <meta content="AI-Native Banking &amp; Fintech Conference 2026" property="twitter:title">
+  <meta content="The leading event for AI applications in banking and fintech. No fluff, just real-world use cases." property="twitter:description">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/aibf-conference.webflow.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Inter:regular,500,600,700"]  }});</script>
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon">
+  <link href="https://conference.springlabs.com" rel="canonical">
+  <style>
+    html, body {
+      overflow-x: hidden;
+      max-width: 100vw;
+    }
+    
+    /* Make parallax gallery images larger */
+    .landscape-image-wrap.parallax-gallery {
+      padding-top: 75%; /* Was 66.66%, now taller */
+    }
+    
+    .portrait-image-wrap.parallax-gallery {
+      padding-top: 130%; /* Was 115%, now taller */
+    }
+    
+    /* Parallax Gallery Scroll Effect */
+    .parallax-gallery {
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .parallax-gallery .parallax-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0;
+      transition: opacity 1s cubic-bezier(0.4, 0, 0.2, 1), transform 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+      transform: scale(1.08);
+    }
+    
+    .parallax-gallery .parallax-image.active {
+      opacity: 1;
+      transform: scale(1);
+      z-index: 1;
+    }
+    
+    .parallax-gallery .parallax-image.exiting {
+      opacity: 0;
+      transform: scale(0.96);
+      z-index: 0;
+    }
+    
+    /* Subtle indicator dots */
+    .parallax-indicators {
+      position: absolute;
+      bottom: 12px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 6px;
+      z-index: 10;
+    }
+    
+    .parallax-indicator {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.4);
+      transition: all 0.3s ease;
+    }
+    
+    .parallax-indicator.active {
+      background: rgba(255, 255, 255, 0.9);
+      transform: scale(1.2);
+    }
+    
+    /* Global responsive fixes */
+    @media screen and (max-width: 991px) {
+      .speakers-slide-grid {
+        grid-template-columns: 1fr !important;
+        gap: 1.5rem !important;
+      }
+      .homepage-speakers-grid {
+        grid-column: 1 / -1 !important;
+      }
+    }
+    
+    @media screen and (max-width: 767px) {
+      .speakers-slide-grid {
+        display: flex !important;
+        flex-direction: column !important;
+      }
+      .speakers-heading-wrap {
+        padding: 2rem !important;
+      }
+      .homepage-speakers-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+      }
+    }
+    
+    @media screen and (max-width: 479px) {
+      .homepage-speakers-grid {
+        grid-template-columns: 1fr !important;
+      }
+      [data-content="agenda"] > div {
+        grid-template-columns: 1fr !important;
+      }
+    }
+  </style>
+  <link href="css/cookie-consent.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div data-component="navbar"></div>
+  <div class="section homepage-hero" style="padding-top: 140px; padding-bottom: 140px; overflow-x: hidden;">
+    <div class="container w-container">
+      <div data-w-id="39a46cde-053b-d58d-fc0e-d04d2963701b" style="opacity:0; text-align: center; max-width: 1000px; margin: 0 auto;">
+        <h1 class="hero-headline" style="margin-bottom: 1.25rem;">Where Agentic AI Meets Banking &amp; Fintech</h1>
+        <p class="hero-subheadline" style="margin-bottom: 2.5rem;">Join the nation's leading AI innovators, bankers, fintechs and regulators for an exclusive deep-dive into the practical applications of AI-native financial services.</p>
+        
+        <!-- Host & Cohost Section -->
+        <div class="hero-hosts" style="display: flex; justify-content: center; align-items: center; gap: 5rem; margin-bottom: 2.5rem; flex-wrap: wrap;">
+          <!-- Host -->
+          <div class="hero-host-card" style="text-align: center;">
+            <div style="font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.15em; opacity: 0.8; margin-bottom: 1.25rem; font-weight: 500; margin-top: 25px;">Host</div>
+            <div style="display: flex; align-items: center; gap: 1.25rem; justify-content: center;">
+              <img src="images/Spring-Labs-logo.png" alt="Spring Labs" style="height: 72px; width: auto;">
+              <span style="font-size: 2rem; font-weight: 900; letter-spacing: 0.12em; color: #fff; font-family: 'Inter', sans-serif;">SPRING LABS</span>
+            </div>
+          </div>
+          
+          <!-- Divider -->
+          <div class="hero-divider" style="width: 1px; background: rgba(255,255,255,0.25); height: 100px; align-self: center;"></div>
+          
+          <!-- Cohost -->
+          <div class="hero-host-card" style="text-align: center;">
+            <div style="font-size: 0.77rem; text-transform: uppercase; letter-spacing: 0.15em; opacity: 0.8; margin-bottom: 1.25rem; font-weight: 500;">Co-Host</div>
+            <img src="images/utah-upscale-no-background-1.svg" alt="Utah Bankers Association" style="height: 63px; width: auto; filter: brightness(0) invert(1);">
+          </div>
+        </div>
+        
+        <!-- In Partnership With Section -->
+        <div class="hero-partners" style="margin-bottom: 2rem;">
+          <div style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; opacity: 0.7; margin-bottom: 1.25rem;">In Partnership With</div>
+          <div style="display: flex; justify-content: center; align-items: center; gap: 2.5rem; flex-wrap: wrap;">
+            <div class="partner-logo" style="opacity: 0.9; transition: opacity 0.2s;">
+              <img src="images/image-2.svg" alt="Governor's Office of Economic Opportunity" style="height: 40px; width: auto; filter: brightness(0) invert(1);" title="Governor's Office of Economic Opportunity">
+            </div>
+            <div class="partner-logo" style="opacity: 0.9; transition: opacity 0.2s;">
+              <img src="images/afc-1.svg" alt="American Fintech Council" style="height: 36px; width: auto; filter: brightness(0) invert(1);" title="American Fintech Council">
+            </div>
+            <div class="partner-logo" style="opacity: 0.9; transition: opacity 0.2s;">
+              <img src="images/Fintech Center logo.jpg" alt="University of Utah Fintech Center" style="height: 45px; width: auto; border-radius: 4px;" title="University of Utah Fintech Center">
+            </div>
+          </div>
+        </div>
+        
+        <!-- See All Sponsors Link - commented out
+        <a href="sponsors.html" class="button secondary-white w-button">See All Sponsors</a>
+        -->
+      </div>
+    </div>
+  </div>
+  <style>
+    .hero-headline {
+      font-size: 3.75rem;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+      color: #fff;
+      text-shadow: 0 2px 24px rgba(0,0,0,0.25);
+      text-transform: none;
+      margin-left: 0;
+      margin-top: 0;
+    }
+    .hero-subheadline {
+      font-size: 1.2rem;
+      font-weight: 400;
+      line-height: 1.65;
+      color: rgba(255,255,255,0.85);
+      max-width: 720px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .hero-host-card {
+      transition: transform 0.2s ease;
+    }
+    .hero-host-card:hover {
+      transform: scale(1.05);
+    }
+    .partner-logo:hover {
+      opacity: 1 !important;
+      transform: scale(1.05);
+    }
+
+    @media screen and (max-width: 991px) {
+      .hero-headline {
+        font-size: 2.75rem;
+      }
+      .hero-hosts {
+        gap: 3rem !important;
+      }
+      .hero-host-card span[style*="font-size: 2rem"] {
+        font-size: 1.5rem !important;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      .hero-headline {
+        font-size: 2rem;
+      }
+      .hero-subheadline {
+        font-size: 1rem;
+      }
+      .hero-hosts {
+        flex-direction: column !important;
+        gap: 2rem !important;
+      }
+      .hero-divider {
+        width: 60% !important;
+        height: 1px !important;
+        margin: 0 auto !important;
+      }
+      .hero-partners > div:last-child {
+        gap: 1.5rem !important;
+      }
+      .hero-host-card img[style*="height: 72px"] {
+        height: 50px !important;
+      }
+      .hero-host-card span[style*="font-size: 2rem"] {
+        font-size: 1.25rem !important;
+      }
+    }
+
+    @media screen and (max-width: 479px) {
+      .section.homepage-hero > .container > div {
+        overflow: hidden !important;
+        max-width: 100% !important;
+      }
+      .hero-headline {
+        font-size: 1.65rem;
+      }
+      .hero-subheadline {
+        font-size: 0.95rem;
+      }
+      .hero-hosts {
+        gap: 1.5rem !important;
+      }
+      .hero-host-card {
+        width: 100% !important;
+      }
+      .hero-host-card > div[style*="display: flex"] {
+        flex-direction: column !important;
+        gap: 0.5rem !important;
+      }
+      .hero-host-card img[style*="height: 72px"] {
+        height: 40px !important;
+      }
+      .hero-host-card span[style*="font-size: 2rem"] {
+        font-size: 1rem !important;
+        letter-spacing: 0.08em !important;
+      }
+      .partner-logo img {
+        height: 28px !important;
+      }
+      .hero-partners > div:last-child {
+        gap: 1rem !important;
+      }
+    }
+  </style>
+  <!-- Save the Date Banner -->
+  <div class="section accent-ribbon save-date-banner">
+    <div class="container w-container">
+      <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 1.5rem 3rem;">
+        <div style="display: flex; align-items: center; gap: 1rem;">
+          <img src="images/conference_logo_white_v3.svg" alt="AI-Native v3" style="height: 5rem; width: auto;">
+          <div style="text-align: left;">
+            <div style="font-size: 1.75rem; font-weight: 600; letter-spacing: -0.02em;">September 29, 2026</div>
+          </div>
+        </div>
+        <div style="height: 40px; width: 1px; background: rgba(255,255,255,0.3); display: none;" class="banner-divider"></div>
+        <div style="display: flex; align-items: center; gap: 0.75rem;">
+          <span style="font-size: 1.5rem;">📍</span>
+          <span style="font-size: 1rem;">University of Utah, Salt Lake City</span>
+        </div>
+        <a href="tickets.html" class="button secondary-white w-button" style="margin-left: 1rem;">Register</a>
+      </div>
+    </div>
+  </div>
+  <style>
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+    }
+    .save-date-banner {
+      background: linear-gradient(135deg, var(--accent) 0%, #c94a3a 100%);
+      box-shadow: 0 4px 20px rgba(225, 97, 75, 0.3);
+    }
+    @media screen and (min-width: 768px) {
+      .banner-divider { display: block !important; }
+    }
+    @media screen and (max-width: 767px) {
+      .save-date-banner .container > div {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem !important;
+      }
+      .save-date-banner .container > div > div {
+        justify-content: center;
+      }
+      .save-date-banner a.button {
+        margin-left: 0 !important;
+        margin-top: 0.5rem;
+      }
+      .save-date-banner img[style*="height: 5rem"] {
+        height: 3.5rem !important;
+      }
+      .save-date-banner div[style*="font-size: 1.75rem"] {
+        font-size: 1.25rem !important;
+      }
+    }
+    @media screen and (max-width: 479px) {
+      .save-date-banner .container > div {
+        flex-direction: column;
+        text-align: center;
+        gap: 0.75rem !important;
+      }
+      .save-date-banner img[style*="height: 5rem"] {
+        height: 2.5rem !important;
+      }
+      .save-date-banner div[style*="font-size: 1.75rem"] {
+        font-size: 1rem !important;
+      }
+      .save-date-banner span[style*="font-size: 1.5rem"] {
+        font-size: 1rem !important;
+      }
+    }
+  </style>
+  <!-- 2025 Event Recap Video Section -->
+  <div class="section grey" style="padding: 80px 0;">
+    <div class="container w-container">
+      <div style="text-align: center; max-width: 900px; margin: 0 auto;">
+        <h2 class="font-size-4-5rem caps" style="margin-bottom: 2rem;">Highlights from the <span class="font-color-accent">2025</span> Event</h2>
+        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 12px; box-shadow: 0 10px 40px rgba(0,0,0,0.15);">
+          <iframe 
+            src="https://www.youtube.com/embed/HzRGlYT-QMk" 
+            title="AI-Native 2025 Highlights" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section" id="why-join">
+    <div class="container w-container">
+      <div class="_12-columns-grid">
+        <div id="w-node-_0c19a53e-1765-61a8-9d08-cbf4628f8b31-3efe8e4d">
+          <h2 class="no-margins max-12ch">Why Join Us in <span class="font-color-accent">2026?</span></h2>
+        </div>
+        <div id="w-node-_6d90643f-aeb7-3f1a-5697-7619c6b03f53-3efe8e4d">
+          <p>Skip the theory and vendor pitches. AI-Native connects you directly with banks and fintechs already deploying AI in production, sharing what's working, what failed, and how they're managing compliance. You'll leave with practical frameworks you can implement immediately, plus connections to peers solving the same problems you face.</p>
+        </div>
+      </div>
+      <div class="key-features-wrap">
+        <div data-w-id="6b74614b-c885-1215-ce11-977c790fc661" style="opacity:0" class="key-feature _1">2 Years of Impact</div>
+        <div data-w-id="eebbc3a9-d8f4-fc41-c5a4-2859371e8b31" style="opacity:0" class="key-feature _2">400+ Attendees</div>
+        <div data-w-id="fd450096-66a0-384f-80a6-df140a9901d0" style="opacity:0" class="key-feature _3">120+ Speakers</div>
+      </div>
+      <div class="_12-columns-grid">
+        <div id="w-node-_94dac24c-8e15-d7e7-7353-b6771f7040f5-3efe8e4d" class="landscape-image-wrap parallax-gallery" data-parallax-gallery="experts">
+          <img src="images/IMG_0468_web.jpg" loading="lazy" alt="Speaker presenting at AI-Native Conference" class="absolute-image parallax-image active">
+          <img src="images/IMG_0544_web.jpg" loading="lazy" alt="Panel discussion at AI-Native Conference" class="absolute-image parallax-image">
+          <img src="images/IMG_0605_web.jpg" loading="lazy" alt="Expert panel on AI in banking" class="absolute-image parallax-image">
+          <img src="images/IMG_1389_web.jpg" loading="lazy" alt="Conference session with audience" class="absolute-image parallax-image">
+          <img src="images/IMG_1450_web.jpg" loading="lazy" alt="Fireside chat at AI-Native Conference" class="absolute-image parallax-image">
+        </div>
+        <div id="w-node-_294194ce-e8ee-7475-f178-bd1aceeda25b-3efe8e4d" data-w-id="294194ce-e8ee-7475-f178-bd1aceeda25b" style="opacity:0" class="content-wrap">
+          <h2 class="no-top-margin max-12ch">Meet The Leading <span class="font-color-accent">Experts</span> in AI &amp; Banking</h2>
+          <p class="subheading">Skip the vendor pitches and keynotes from people who've never deployed AI. Our speakers are CROs, Chief Data Officers, and compliance leaders running AI in production at banks and fintechs today.</p>
+        </div>
+      </div>
+      <div class="_12-columns-grid top-margin-120px">
+        <div id="w-node-_4b24e105-cac1-7728-81fd-64d466096849-3efe8e4d" data-w-id="4b24e105-cac1-7728-81fd-64d466096849" style="opacity:0" class="content-wrap">
+          <h2 class="no-top-margin max-12ch">Build Relationships That <span class="font-color-accent">Solve Problems</span></h2>
+          <p class="subheading">Network with people who can actually answer your questions. Our crowd includes bank executives deploying AI today, fintech leaders who've scaled AI products, and the regulators reviewing their work.</p>
+        </div>
+        <div id="w-node-_4b24e105-cac1-7728-81fd-64d466096847-3efe8e4d" class="portrait-image-wrap parallax-gallery" data-parallax-gallery="networking">
+          <img src="images/IMG_0693_web.jpg" loading="lazy" alt="Networking at Rice-Eccles Stadium" class="absolute-image parallax-image active">
+          <img src="images/IMG_0720_web.jpg" loading="lazy" alt="Attendees at conference session" class="absolute-image parallax-image">
+          <img src="images/IMG_0730_web.jpg" loading="lazy" alt="Stadium networking event overview" class="absolute-image parallax-image">
+          <img src="images/IMG_0614_web.jpg" loading="lazy" alt="Roundtable discussion" class="absolute-image parallax-image">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="container w-container">
+      <div class="flex vertical-centre">
+        <div class="_12-columns-grid">
+          <h2 id="w-node-_804143b4-ab10-292b-acfb-bd1e4cb174d8-3efe8e4d" class="font-size-4-5rem caps">Main Stage <span class="font-color-accent">2026</span></h2>
+        </div>
+        <div id="w-node-_314336ae-2ef4-65b8-1175-3f21d09bce83-3efe8e4d" class="events-wrap bottom-margin-80">
+          <!-- Dynamic content loaded from data/agenda.json -->
+          <div data-content="agenda">
+            <p style="text-align: center; color: #666;">Loading agenda...</p>
+          </div>
+        </div>
+        <a id="w-node-a47a475e-2697-7702-39ad-ac3b5303bcb6-3efe8e4d" href="events.html" class="button secondary w-button">Past Agendas</a>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="container w-container">
+      <div class="speakers-slide-grid">
+        <div id="w-node-ef3c77fc-3a45-6786-771a-91374556002f-3efe8e4d" class="speakers-heading-wrap">
+          <h3 class="max-12ch">Meet Our <em>2026</em> Speakers</h3>
+          <a href="speakers-2026.html" class="button secondary-white w-button">All 2026 Speakers</a>
+        </div>
+        <!-- Dynamic content loaded from data/speakers.json (confirmed 2026 lineup) -->
+        <div data-content="speakers" data-limit="6" class="homepage-speakers-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; grid-column: span 2;">
+          <p style="text-align: center; color: #666; grid-column: 1 / -1;">Loading speakers...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section grey">
+    <div class="container w-container">
+      <div id="w-node-ba39b149-7198-e8cc-958b-1df2d053d059-3efe8e4d" class="flex vertical-centre">
+        <h3 class="centered-heading">What Attendees Are Saying:</h3>
+        <div data-delay="8000" data-animation="slide" class="reviews-slider w-slider" data-autoplay="true" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="4" data-duration="800" data-infinite="true">
+          <div class="review-slider-mask w-slider-mask">
+            <div class="slide w-slide">
+              <div class="review-card">
+                <div class="review-author">
+                  <p class="review-text">The AI-Native Banking & Fintech Conference has become a highlight of my year because they cut through the hype and deliver real-world use cases from banks and fintech companies deploying AI today. The sessions provided practical insights on both customer-facing applications and regulatory compliance strategies and the attendees were knowledgeable and engaged. As we have in the past, I will absolutely be recommending this event to AFC members this year.</p>
+                  <div class="review-author-wrap"><img src="images/Phil-Goldfeder-scaled.jpg" loading="lazy" alt="Phil Goldfeder" class="review-avatar">
+                    <div>
+                      <h5 class="no-margins">Phil Goldfeder</h5>
+                      <div class="position">CEO, American Fintech Council</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="portrait-image-wrap review-image"><img src="images/Phil-Goldfeder-scaled.jpg" loading="lazy" alt="Phil Goldfeder" sizes="(max-width: 479px) 100vw, (max-width: 991px) 41vw, (max-width: 1279px) 33vw, 425.1484375px" class="absolute-image"></div>
+              </div>
+            </div>
+            <div class="slide w-slide">
+              <div class="review-card">
+                <div class="review-author">
+                  <p class="review-text">In just 2 years, AI-Native has become a must-attend event for me. It brings together bankers who are proactively thinking about, using and learning how to best impact and evolve their banks with AI, as well as founders who are solving critical problems for banks and the industry. The content is focused, the attendees are high quality, and the format creates great learning, connection and productive plans. I'll definitely be there again in 2026.</p>
+                  <div class="review-author-wrap"><img src="images/carey2025---Carey-Ransom.jpg" loading="lazy" alt="Carey Ransom" class="review-avatar">
+                    <div>
+                      <h5 class="no-margins">Carey Ransom</h5>
+                      <div class="position">Managing Director, BankTech Ventures</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="portrait-image-wrap review-image"><img src="images/carey2025---Carey-Ransom.jpg" loading="lazy" alt="Carey Ransom" sizes="(max-width: 479px) 100vw, (max-width: 991px) 41vw, (max-width: 1279px) 33vw, 425.1484375px" class="absolute-image"></div>
+              </div>
+            </div>
+            <div class="slide w-slide">
+              <div class="review-card">
+                <div class="review-author">
+                  <p class="review-text">What set this conference apart was the quality of attendees and the collaborative atmosphere. I had meaningful conversations with dozens of bankers and fintechs who were looking to solve real problems. It was a top event of 2025 - we calculated that AI-Native has generated a 100x ROI for Kobalt Labs.</p>
+                  <div class="review-author-wrap"><img src="images/Kalyani-Ramadurgam---CEO---Kobalt-Labs.jpg" loading="lazy" alt="Kalyani Ramadurgam" class="review-avatar">
+                    <div>
+                      <h5 class="no-margins">Kalyani Ramadurgam</h5>
+                      <div class="position">CEO and Co-Founder, Kobalt Labs</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="portrait-image-wrap review-image"><img src="images/Kalyani-Ramadurgam---CEO---Kobalt-Labs.jpg" loading="lazy" alt="Kalyani Ramadurgam" sizes="(max-width: 479px) 100vw, (max-width: 991px) 41vw, (max-width: 1279px) 33vw, 425.1484375px" class="absolute-image"></div>
+              </div>
+            </div>
+            <div class="slide w-slide">
+              <div class="review-card">
+                <div class="review-author">
+                  <p class="review-text">The Spring Labs AI-Native Banking & Fintech Conference was one of the most valuable industry events I've attended this year. I came away with actionable insights grounded in hands-on, real-world applications; ideas I can immediately bring back to my team and apply in our work at Upstart.<br><br>I was particularly impressed by how AI-Native brings together practitioners, regulators, and technology experts in a way that encourages honest dialogue and real progress. It's rare to find a forum that balances meaningful conversation with practical execution so well, and I'm grateful for the opportunity to learn alongside such a thoughtful group of leaders.</p>
+                  <div class="review-author-wrap"><img src="images/Screenshot-2025-07-22-at-2.15.42-PM.png" loading="lazy" alt="Annie Delgado" class="review-avatar">
+                    <div>
+                      <h5 class="no-margins">Annie Delgado</h5>
+                      <div class="position">Chief Risk Officer, Upstart</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="portrait-image-wrap review-image"><img src="images/Screenshot-2025-07-22-at-2.15.42-PM.png" loading="lazy" alt="Annie Delgado" sizes="(max-width: 479px) 100vw, (max-width: 991px) 41vw, (max-width: 1279px) 33vw, 425.1484375px" class="absolute-image"></div>
+              </div>
+            </div>
+          </div>
+          <div class="left-arrow w-slider-arrow-left">
+            <div class="w-icon-slider-left"></div>
+          </div>
+          <div class="right-arrow w-slider-arrow-right">
+            <div class="w-icon-slider-right"></div>
+          </div>
+          <div class="slide-nav w-slider-nav w-slider-nav-invert w-round"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="section">
+    <div class="container w-container">
+      <div id="w-node-homepage-sponsors-2026-heading" class="block-heading-wrap">
+        <h2 class="font-size-4-5rem caps">2026 <span class="font-color-accent">Sponsors</span></h2>
+        <a href="sponsors-2026.html">See All Sponsors &gt;</a>
+      </div>
+      <!-- Dynamic content loaded from data/sponsors.json (list2026) -->
+      <div data-content="sponsors-2026" style="display: grid; grid-template-columns: repeat(6, 1fr); gap: 1.25rem;" class="homepage-sponsors-2026-grid">
+        <p style="text-align: center; color: #666; grid-column: 1 / -1;">Loading sponsors...</p>
+      </div>
+      <style>
+        @media screen and (max-width: 991px) {
+          .homepage-sponsors-2026-grid { grid-template-columns: repeat(4, 1fr) !important; }
+        }
+        @media screen and (max-width: 767px) {
+          .homepage-sponsors-2026-grid { grid-template-columns: repeat(3, 1fr) !important; gap: 0.85rem !important; }
+        }
+        @media screen and (max-width: 479px) {
+          .homepage-sponsors-2026-grid { grid-template-columns: repeat(2, 1fr) !important; }
+        }
+      </style>
+    </div>
+  </section>
+  <div class="section">
+    <div class="container w-container">
+      <div id="w-node-_8ff1b9e6-c91c-b72b-1157-d59035207aa4-3efe8e4d" class="block-heading-wrap">
+        <h2 data-w-id="8ff1b9e6-c91c-b72b-1157-d59035207aa5" style="opacity:0" class="font-size-4-5rem caps">Past Session <span class="font-color-accent">Highlights</span></h2>
+        <a href="events.html">View Past Sessions &gt;</a>
+      </div>
+      <div class="session-highlights-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
+        <!-- Video 1 -->
+        <div style="background: #f9f9f9; border-radius: 12px; overflow: hidden;">
+          <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+            <iframe 
+              src="https://www.youtube.com/embed/KRplEkuMa54" 
+              title="Session Highlight" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowfullscreen
+              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+            </iframe>
+          </div>
+        </div>
+        <!-- Video 2 -->
+        <div style="background: #f9f9f9; border-radius: 12px; overflow: hidden;">
+          <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+            <iframe 
+              src="https://www.youtube.com/embed/_H2wtN-Z6ag" 
+              title="Session Highlight" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowfullscreen
+              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+            </iframe>
+          </div>
+        </div>
+        <!-- Video 3 -->
+        <div style="background: #f9f9f9; border-radius: 12px; overflow: hidden;">
+          <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+            <iframe 
+              src="https://www.youtube.com/embed/PKPX9QnImBo" 
+              title="Session Highlight" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowfullscreen
+              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+            </iframe>
+          </div>
+        </div>
+        <!-- Video 4 -->
+        <div style="background: #f9f9f9; border-radius: 12px; overflow: hidden;">
+          <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+            <iframe 
+              src="https://www.youtube.com/embed/JetobQCF1QA" 
+              title="Session Highlight" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowfullscreen
+              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+            </iframe>
+          </div>
+        </div>
+        <!-- Video 5 -->
+        <div style="background: #f9f9f9; border-radius: 12px; overflow: hidden;">
+          <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+            <iframe 
+              src="https://www.youtube.com/embed/dhWvNITEBY0" 
+              title="Session Highlight" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowfullscreen
+              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+            </iframe>
+          </div>
+        </div>
+        <!-- Video 6 -->
+        <div style="background: #f9f9f9; border-radius: 12px; overflow: hidden;">
+          <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+            <iframe 
+              src="https://www.youtube.com/embed/5RgKEhTzaws" 
+              title="Session Highlight" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowfullscreen
+              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section accent-color-bg">
+    <div class="container w-container">
+      <div class="flex cta-wrap">
+        <h2 id="w-node-fb7d81d3-8dd9-5c0e-e721-34e8b1ecc4fc-b1ecc4f9" data-w-id="fb7d81d3-8dd9-5c0e-e721-34e8b1ecc4fc" class="cta-heading">Save the Date: September 29, 2026</h2>
+        <p id="w-node-_4da9c3ba-a792-3582-f787-f0aab9ef37d3-b1ecc4f9" data-w-id="4da9c3ba-a792-3582-f787-f0aab9ef37d3" class="subheading">Join 400+ alumni at the AI-Native Banking &amp; Fintech Conference!</p>
+        <a id="w-node-fb7d81d3-8dd9-5c0e-e721-34e8b1ecc4fe-b1ecc4f9" data-w-id="fb7d81d3-8dd9-5c0e-e721-34e8b1ecc4fe" href="tickets.html" class="button secondary-white w-button">Register</a>
+      </div>
+    </div>
+  </div>
+  <div class="section footer">
+    <div class="container w-container">
+      <div class="_12-columns-grid">
+        <div id="w-node-_6618da7d-ced0-5bd8-80ba-f0090afc6eb7-0afc6eb4" class="legal-wrap"><img src="images/ai-native-white-1.png" loading="lazy" alt="AI-Native Conference" height="40">
+          <div class="legal-text">© 2026 Spring Labs. All rights reserved</div>
+        </div>
+        <div id="w-node-_6618da7d-ced0-5bd8-80ba-f0090afc6ebb-0afc6eb4" class="footer-column">
+          <a href="venue.html" class="footer-link">Venue</a>
+          <a href="agenda.html" class="footer-link">Agenda</a>
+          <a href="speakers-2026.html" class="footer-link">2026 Speakers</a>
+          <a href="sponsors-2026.html" class="footer-link">Sponsors</a>
+          <a href="events.html" class="footer-link">Past Sessions</a>
+          <a href="speakers.html" class="footer-link">Past Speakers</a>
+          <a href="sponsors.html" class="footer-link">Past Sponsors</a>
+        </div>
+        <div id="w-node-_6618da7d-ced0-5bd8-80ba-f0090afc6ec4-0afc6eb4" class="footer-column">
+          <a href="tickets.html" class="footer-link">Register</a>
+          <a href="become-speaker.html" class="footer-link">Apply to Speak</a>
+          <a href="sponsors.html" class="footer-link">Become a Sponsor</a>
+        </div>
+        <div id="w-node-_6618da7d-ced0-5bd8-80ba-f0090afc6ecb-0afc6eb4" class="footer-column">
+          <a href="https://springlabs.com" target="_blank" class="footer-link">About Spring Labs</a>
+          <a href="https://springlabs.com" target="_blank" class="footer-link">Contact Us</a>
+          <a href="https://www.springlabs.com/cookie-policy" target="_blank" rel="noopener noreferrer" class="footer-link">Cookie Policy</a>
+          <a href="https://www.springlabs.com/privacy-policy" target="_blank" rel="noopener noreferrer" class="footer-link">Privacy Policy</a>
+        </div>
+        <div id="w-node-_6618da7d-ced0-5bd8-80ba-f0090afc6ed4-0afc6eb4" class="footer-column">
+          <a href="https://springlabs.com" target="_blank" class="footer-link">Hosted by Spring Labs</a>
+        </div>
+        <div id="w-node-_6618da7d-ced0-5bd8-80ba-f0090afc6ed9-0afc6eb4" class="footer-column with-social-links">
+          <a href="https://twitter.com/" target="_blank" class="social-link w-inline-block"><img src="images/Twitter.svg" loading="lazy" alt=""></a>
+          <a href="http://linkedin.com/" target="_blank" class="social-link w-inline-block"><img src="images/LinkedIn.svg" loading="lazy" alt=""></a>
+          <a href="https://www.facebook.com/" target="_blank" class="social-link w-inline-block"><img src="images/Facebook.svg" loading="lazy" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=695ec3c8f5535f4b3efe8d84" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <script src="js/content-loader.js" type="text/javascript"></script>
+  <script>
+    // Parallax scroll effect for hero background
+    (function() {
+      const heroSection = document.querySelector('.section.homepage-hero');
+      if (!heroSection) return;
+      
+      let ticking = false;
+      
+      function updateParallax() {
+        const scrollY = window.pageYOffset;
+        const heroHeight = heroSection.offsetHeight;
+        
+        // Only apply effect when hero is visible
+        if (scrollY < heroHeight * 1.5) {
+          const parallaxSpeed = 0.4;
+          const yOffset = scrollY * parallaxSpeed;
+          heroSection.style.setProperty('--parallax-y', yOffset + 'px');
+        }
+        ticking = false;
+      }
+      
+      // Add CSS variable support for parallax
+      const style = document.createElement('style');
+      style.textContent = `
+        .section.homepage-hero::before {
+          transform: scale(1.15) translateY(var(--parallax-y, 0));
+        }
+      `;
+      document.head.appendChild(style);
+      
+      window.addEventListener('scroll', function() {
+        if (!ticking) {
+          requestAnimationFrame(updateParallax);
+          ticking = true;
+        }
+      }, { passive: true });
+      
+      // Initial call
+      updateParallax();
+    })();
+  </script>
+  
+  <script>
+    // Parallax scroll-based image gallery effect
+    (function() {
+      const galleries = document.querySelectorAll('.parallax-gallery');
+      if (!galleries.length) return;
+      
+      // Minimum time between transitions (ms) - prevents jarring fast scrolling
+      // Matches the slower 1s crossfade for smooth, complete transitions
+      const MIN_TRANSITION_INTERVAL = 800;
+      
+      // Initialize each gallery
+      galleries.forEach(gallery => {
+        const images = gallery.querySelectorAll('.parallax-image');
+        if (images.length <= 1) return;
+        
+        // Create indicator dots
+        const indicators = document.createElement('div');
+        indicators.className = 'parallax-indicators';
+        images.forEach((_, i) => {
+          const dot = document.createElement('div');
+          dot.className = 'parallax-indicator' + (i === 0 ? ' active' : '');
+          indicators.appendChild(dot);
+        });
+        gallery.appendChild(indicators);
+        
+        // Store state on the gallery element
+        gallery._currentIndex = 0;
+        gallery._imageCount = images.length;
+        gallery._images = images;
+        gallery._indicators = indicators.querySelectorAll('.parallax-indicator');
+        gallery._lastTransitionTime = 0;
+        gallery._pendingIndex = null;
+        gallery._pendingTimeout = null;
+      });
+      
+      let ticking = false;
+      
+      function transitionToIndex(gallery, targetIndex) {
+        const images = gallery._images;
+        const indicators = gallery._indicators;
+        const previousIndex = gallery._currentIndex;
+        
+        gallery._currentIndex = targetIndex;
+        gallery._lastTransitionTime = Date.now();
+        gallery._pendingIndex = null;
+        
+        // Update images
+        images.forEach((img, i) => {
+          img.classList.remove('active', 'exiting');
+          if (i === targetIndex) {
+            img.classList.add('active');
+          } else if (i === previousIndex) {
+            img.classList.add('exiting');
+          }
+        });
+        
+        // Update indicators
+        indicators.forEach((dot, i) => {
+          dot.classList.toggle('active', i === targetIndex);
+        });
+      }
+      
+      function updateGalleries() {
+        const viewportHeight = window.innerHeight;
+        const now = Date.now();
+        
+        galleries.forEach(gallery => {
+          const rect = gallery.getBoundingClientRect();
+          const imageCount = gallery._imageCount;
+          
+          // Calculate how far through the viewport the gallery is
+          // Start changing when the gallery enters, continue until it leaves
+          const galleryHeight = rect.height;
+          const startOffset = viewportHeight; // Start when gallery enters viewport
+          const endOffset = -galleryHeight;   // End when gallery fully exits
+          const totalScrollDistance = startOffset - endOffset;
+          
+          // Calculate progress (0 to 1) based on gallery position
+          const currentOffset = rect.top;
+          const progress = Math.max(0, Math.min(1, (startOffset - currentOffset) / totalScrollDistance));
+          
+          // Determine which image should be active based on progress
+          const targetIndex = Math.min(Math.floor(progress * imageCount), imageCount - 1);
+          
+          // Only proceed if the index would change
+          if (targetIndex !== gallery._currentIndex) {
+            const timeSinceLastTransition = now - gallery._lastTransitionTime;
+            
+            if (timeSinceLastTransition >= MIN_TRANSITION_INTERVAL) {
+              // Enough time has passed, transition immediately
+              transitionToIndex(gallery, targetIndex);
+            } else {
+              // Not enough time has passed, queue this transition
+              gallery._pendingIndex = targetIndex;
+              
+              // Clear any existing timeout and set a new one
+              if (gallery._pendingTimeout) {
+                clearTimeout(gallery._pendingTimeout);
+              }
+              
+              const remainingTime = MIN_TRANSITION_INTERVAL - timeSinceLastTransition;
+              gallery._pendingTimeout = setTimeout(() => {
+                // Check if pending index is still different from current
+                if (gallery._pendingIndex !== null && gallery._pendingIndex !== gallery._currentIndex) {
+                  transitionToIndex(gallery, gallery._pendingIndex);
+                }
+                gallery._pendingTimeout = null;
+              }, remainingTime);
+            }
+          }
+        });
+        
+        ticking = false;
+      }
+      
+      window.addEventListener('scroll', function() {
+        if (!ticking) {
+          requestAnimationFrame(updateGalleries);
+          ticking = true;
+        }
+      }, { passive: true });
+      
+      // Initial call
+      updateGalleries();
+    })();
+  </script>
+  <script src="js/cookie-consent.js" type="text/javascript" defer></script>
+</body>
+</html>
