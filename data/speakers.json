@@ -86,7 +86,7 @@
     "year": "2024, 2025, 2026",
     "featured": true,
     "order": 5,
-    "order2026": 34,
+    "order2026": 42,
     "featured2026": false
   },
   {
@@ -325,13 +325,15 @@
     "id": "brandon-thomas",
     "name": "Brandon Thomas",
     "title": "Chief Data Officer",
-    "company": "Zions Bank",
-    "photo": "images/VgdRdbZ7J98gSnJJJSPlO3jPz1tCSiNDwZIIzqP4.png",
-    "linkedin": "",
-    "bio": "",
-    "year": "2025",
+    "company": "Zions Bancorporation",
+    "photo": "images/Brandon-Thomas.jpg",
+    "linkedin": "https://www.linkedin.com/in/brandon-thomas-usa/",
+    "bio": "Brandon Thomas is serving as the Chief Data Officer for Zions Bancorporation. In this role, he is charged with deploying a data & analytics strategy that bridges business and technology. His responsibilities include advancing AI with the data science team, developing a Data and AI governance framework, and continuing to strengthen the data management environment.\n\nPrior to this role, Thomas was Director of Financial Operations and Systems for Zions. Thomas started at Zions Bancorporation in 2005 and has served in senior positions within Corporate Finance and was a key contributor to the development of stress testing within the Corporation. Thomas received an MBA from Brigham Young University.",
+    "year": "2025, 2026",
     "featured": false,
-    "order": 25
+    "order": 25,
+    "order2026": 24,
+    "featured2026": false
   },
   {
     "id": "brendan-mulvey",
@@ -348,14 +350,16 @@
   {
     "id": "brian-enneking",
     "name": "Brian Enneking",
-    "title": "COO of First Electronic Bank",
-    "company": "",
-    "photo": "images/8.avif",
+    "title": "Chief Operating Officer",
+    "company": "First Electronic Bank",
+    "photo": "images/Brian-Enneking.jpg",
     "linkedin": "https://www.linkedin.com/in/brian-enneking-4225713/",
-    "bio": "Brian Enneking has a strong background in finance and management. Brian currently serves as the Chief Operating Officer at First Electronic Bank since April 2021. Prior to that, they were the CEO of Jump Start Finance from July 2018.",
-    "year": "2024",
+    "bio": "Brian Enneking is Chief Operating Officer at First Electronic Bank, a Utah industrial Bank dedicated to building a financial services industry that is inclusive and effective for the diverse range of consumers, businesses, and partners that rely on it. Brian has spent more than 30 years in the financial services industry, holding a wide variety of positions, including Head of Risk and Chief Credit Officer for Orchard Bank, President of Lending at Genesis Financial Services, head of Marketing and Consumer Experience at Encore Capital Group, and CEO of Jump Start Finance, a finance company dedicated to making child care accessible and affordable to all families.",
+    "year": "2024, 2026",
     "featured": false,
-    "order": 27
+    "order": 27,
+    "order2026": 25,
+    "featured2026": false
   },
   {
     "id": "brian-w-jones",
@@ -482,14 +486,16 @@
   {
     "id": "daniel-chang",
     "name": "Daniel Chang",
-    "title": "General Counsel and Chief Compliance Officer",
+    "title": "General Counsel",
     "company": "Thread Bank",
     "photo": "images/Dan-Chang.jpg",
     "linkedin": "https://www.linkedin.com/in/daniel-c-6b62152/",
-    "bio": "",
-    "year": "2025",
+    "bio": "Dan Chang is General Counsel at Thread Bank and a seasoned attorney with over a decade of experience in fintech, specializing in guiding companies through the complex intersection of technology, finance, and law. A former commercial litigator, Dan brings a unique perspective to helping businesses navigate regulatory challenges and find innovative solutions. He’s committed to using his legal expertise to help companies adapt to a constantly changing financial regulatory landscape.",
+    "year": "2025, 2026",
     "featured": false,
-    "order": 39
+    "order": 39,
+    "order2026": 29,
+    "featured2026": false
   },
   {
     "id": "david-moscatelli",
@@ -514,7 +520,7 @@
     "year": "2024, 2025, 2026",
     "featured": false,
     "order": 41,
-    "order2026": 25,
+    "order2026": 30,
     "featured2026": false
   },
   {
@@ -552,7 +558,7 @@
     "year": "2025, 2026",
     "featured": false,
     "order": 44,
-    "order2026": 26,
+    "order2026": 32,
     "featured2026": false
   },
   {
@@ -616,7 +622,7 @@
     "year": "2025, 2026",
     "featured": false,
     "order": 49,
-    "order2026": 28,
+    "order2026": 34,
     "featured2026": false
   },
   {
@@ -816,26 +822,30 @@
   {
     "id": "kenzie-mexican",
     "name": "Kenzie Mexican",
-    "title": "SVP",
-    "company": "Deputy Chief Compliance & Risk Officer, FinWise Bank",
-    "photo": "images/Kenzie-Mexican.png",
-    "linkedin": "",
-    "bio": "Kenzie Mexican is the Deputy Chief Compliance & Risk Officer at FinWise Bank, where she leads enterprise-wide initiatives to ensure regulatory compliance, manage risk exposure, and uphold the bank’s commitment to the best-in-class approach to compliance. With over two decades of experience in financial services, she specializes in building robust compliance frameworks, fostering a culture of compliance, and navigating complex regulatory environments.\n\nPrior to joining FinWise, she held VP roles in Compliance and Financial Crimes at Zions Bancorporation and Interbank FX. Kenzie is a Certified Regulatory Compliance Manager (CRCM), Certified Anti-Money Laundering Specialists (CAMS), as well as a Certified Fraud Examiner (CFE).",
-    "year": "2025",
+    "title": "Director of Financial Crimes Compliance",
+    "company": "Upstart",
+    "photo": "images/Kenzie-Mexican-2026.jpg",
+    "linkedin": "https://www.linkedin.com/in/kenzie-mexican-486577182/",
+    "bio": "Kenzie Mexican is Director of Financial Crimes at Upstart, bringing more than 20 years of experience across banking, fintech, and financial services. She specializes in fraud prevention, BSA/AML compliance, and regulatory risk management, with a passion for advancing AI-driven financial crime and compliance solutions.\n\nBefore joining Upstart, Kenzie served as BSA Officer and Deputy Chief Compliance and Risk Officer at FinWise Bank. She previously held financial crimes, fraud, and compliance leadership roles at Zions Bancorporation and IBFX.\n\nKenzie is a Certified Anti-Money Laundering Specialist (CAMS), Certified Fraud Examiner (CFE), and Certified Regulatory Compliance Manager (CRCM).",
+    "year": "2025, 2026",
     "featured": false,
-    "order": 66
+    "order": 66,
+    "order2026": 44,
+    "featured2026": false
   },
   {
     "id": "kevin-lewis",
     "name": "Kevin Lewis",
-    "title": "Co-founder & CRO",
+    "title": "Co-Founder & CRO",
     "company": "Spring Labs",
-    "photo": "images/KevinLewis03.jpg",
-    "linkedin": "http://linkedin.com/in/kevinmlewis",
-    "bio": "Kevin is the co-founder and Chief Revenue Officer at Spring Labs. He brings +15 years of leadership experience and success in enterprise sales and business development in the fintech industry. He most recently served as the EVP, Chief Growth Officer at Amount where he helped incubate the vision for the business, drove revenue from zero to +$40MM ARR, and was integral in helping raise $300M in equity capital.  Prior to that Kevin was the SVP, Sales and Business Development at Avant, a leading fintech lending platform based in Chicago.",
-    "year": "2025",
+    "photo": "images/Kevin-Lewis.jpg",
+    "linkedin": "https://www.linkedin.com/in/kevinmlewis",
+    "bio": "Kevin Lewis is Co-Founder and Chief Revenue Officer of Spring Labs, an AI-native compliance and operational risk platform for banks, credit unions, fintechs, and the ARM industry. He brings more than 15 years of experience as a builder and growth leader in fintech.\n\nBefore Spring Labs, Kevin was the founding Chief Revenue Officer at Amount, where he helped incubate the business inside Avant before Amount spun out as a standalone company in 2020. He was instrumental in growing Amount from concept to over $40M in ARR, culminating in its acquisition by FIS in 2025. Prior to Amount, Kevin served as SVP and Head of Business Development at Avant, and earlier led portfolio acquisitions for SquareTwo Financial.",
+    "year": "2025, 2026",
     "featured": false,
-    "order": 67
+    "order": 67,
+    "order2026": 45,
+    "featured2026": false
   },
   {
     "id": "kim-gerhardt",
@@ -902,14 +912,16 @@
   {
     "id": "loren-andersen",
     "name": "Loren Andersen",
-    "title": "Head of Customer Operations",
+    "title": "Senior Director, Head of Customer Operations",
     "company": "Avant",
-    "photo": "images/AI-Native-Website-Headshots-250-x-250-px---Loren-Anderson.png",
+    "photo": "images/Loren-Andersen.jpg",
     "linkedin": "https://www.linkedin.com/in/loren-andersen-5371146/",
-    "bio": "Loren Andersen serves as the Head of Customer Operations at Avant, where he is responsible for overseeing the company’s global contact center operations, and related back-office support functions. These include complaints handling, credit reporting (furnishing and dispute handling), treasury operations, and tier-two support escalations. Since joining Avant in 2013, Loren has played a pivotal role in optimizing both customer-facing and internal processes, driving operational excellence across multiple business units. His expertise spans vendor management, training, and operational risk mitigation.",
-    "year": "2024",
+    "bio": "Loren Andersen has been building and scaling customer operations at Avant since 2013. As Senior Director, Head of Customer Operations, Loren oversees everything from front-line contact centers to core back-office functions like treasury operations, credit reporting, knowledge management, and specialized resolutions teams. A strong advocate for practical innovation, Loren recently led the launch of a voice-based virtual agent for inbound servicing and is actively implementing modern AI tools to streamline operational workflows and elevate the end-to-end customer journey.",
+    "year": "2024, 2026",
     "featured": false,
-    "order": 74
+    "order": 74,
+    "order2026": 47,
+    "featured2026": false
   },
   {
     "id": "madeline-fredin",
@@ -1176,7 +1188,7 @@
     "year": "2024, 2025, 2026",
     "featured": false,
     "order": 96,
-    "order2026": 37,
+    "order2026": 50,
     "featured2026": false
   },
   {
@@ -1238,7 +1250,7 @@
     "year": "2024, 2026",
     "featured": false,
     "order": 101,
-    "order2026": 38,
+    "order2026": 51,
     "featured2026": false
   },
   {
@@ -1662,7 +1674,7 @@
     "year": "2026",
     "featured": false,
     "order": 134,
-    "order2026": 23,
+    "order2026": 26,
     "featured2026": false
   },
   {
@@ -1676,7 +1688,7 @@
     "year": "2026",
     "featured": false,
     "order": 135,
-    "order2026": 24,
+    "order2026": 27,
     "featured2026": false
   },
   {
@@ -1690,7 +1702,7 @@
     "year": "2026",
     "featured": false,
     "order": 136,
-    "order2026": 27,
+    "order2026": 33,
     "featured2026": false
   },
   {
@@ -1704,7 +1716,7 @@
     "year": "2026",
     "featured": false,
     "order": 137,
-    "order2026": 29,
+    "order2026": 35,
     "featured2026": false
   },
   {
@@ -1718,7 +1730,7 @@
     "year": "2026",
     "featured": false,
     "order": 138,
-    "order2026": 30,
+    "order2026": 36,
     "featured2026": false
   },
   {
@@ -1732,7 +1744,7 @@
     "year": "2026",
     "featured": false,
     "order": 139,
-    "order2026": 31,
+    "order2026": 38,
     "featured2026": false
   },
   {
@@ -1746,7 +1758,7 @@
     "year": "2026",
     "featured": false,
     "order": 140,
-    "order2026": 32,
+    "order2026": 40,
     "featured2026": false
   },
   {
@@ -1760,7 +1772,7 @@
     "year": "2026",
     "featured": false,
     "order": 141,
-    "order2026": 33,
+    "order2026": 39,
     "featured2026": false
   },
   {
@@ -1774,7 +1786,7 @@
     "year": "2026",
     "featured": false,
     "order": 142,
-    "order2026": 35,
+    "order2026": 46,
     "featured2026": false
   },
   {
@@ -1788,7 +1800,7 @@
     "year": "2026",
     "featured": false,
     "order": 143,
-    "order2026": 36,
+    "order2026": 48,
     "featured2026": false
   },
   {
@@ -1802,7 +1814,7 @@
     "year": "2026",
     "featured": false,
     "order": 144,
-    "order2026": 39,
+    "order2026": 52,
     "featured2026": false
   },
   {
@@ -1816,7 +1828,7 @@
     "year": "2026",
     "featured": false,
     "order": 145,
-    "order2026": 40,
+    "order2026": 53,
     "featured2026": false
   },
   {
@@ -1830,7 +1842,7 @@
     "year": "2026",
     "featured": false,
     "order": 146,
-    "order2026": 41,
+    "order2026": 56,
     "featured2026": false
   },
   {
@@ -1844,7 +1856,7 @@
     "year": "2026",
     "featured": false,
     "order": 147,
-    "order2026": 42,
+    "order2026": 58,
     "featured2026": false
   },
   {
@@ -1858,7 +1870,147 @@
     "year": "2026",
     "featured": false,
     "order": 148,
+    "order2026": 59,
+    "featured2026": false
+  },
+  {
+    "id": "jerry-siegel",
+    "name": "Jerry Siegel",
+    "title": "SVP & Chief Technology Officer",
+    "company": "AuburnBank",
+    "photo": "images/Jerry-Siegel.jpg",
+    "linkedin": "https://www.linkedin.com/in/jerry-siegel-2b6409/",
+    "bio": "Jerry Siegel is Senior Vice President and Chief Technology Officer at AuburnBank, where he oversees information technology, Treasury Management Operations, and Electronic Services. He has been with AuburnBank since 2002 and has served as Senior Vice President and CTO since 2008.\n\nWith more than 30 years of experience in financial services technology and operations, Siegel previously served as Vice President of Telecommunications and Electronic Delivery Services at another financial institution and has also worked as an independent consultant.\n\nHe has served on the boards of ALACHA and PaymentsFirst and currently serves on the Board of Directors of PAR, a for-profit subsidiary of PaymentsFirst. Siegel holds the Certified Information Systems Auditor (CISA) and Certified Information Security Manager (CISM) designations and earned a B.S. in Computer Engineering from Auburn University.",
+    "year": "2026",
+    "featured": false,
+    "order": 149,
+    "order2026": 37,
+    "featured2026": false
+  },
+  {
+    "id": "matthew-bacal",
+    "name": "Matthew Bacal",
+    "title": "Partner, IP & Commercial Transactions",
+    "company": "Davis Polk",
+    "photo": "images/Matthew-Bacal.jpg",
+    "linkedin": "https://www.linkedin.com/company/davis-polk-&-wardwell-llp/",
+    "bio": "Matt is a partner in Davis Polk's IP & Commercial Transaction practice and corporate lead for the firm's cross-disciplinary Data Privacy & Cybersecurity and AI practices. Matt advises clients on IP, technology, media and data privacy issues arising in their operations and strategic transactions such as licensing, outsourcing and supply agreements, M&A activities, JVs, financings, restructurings and capital markets offerings.\n\nMatt has extensive experience structuring, negotiating and drafting complex commercial arrangements across a range of industries, including with respect to media and sports rights, content distribution, data use and monetization, cloud services, branding, sponsorship, hardware, software and other technologies. A thought leader, he frequently counsels and presents on questions of copyright and data privacy law, as well as on issues arising in the development, use and commercialization of artificial intelligence.\n\nIn his pro bono practice, Matt provides IP and commercial advice to a variety of arts and education-focused nonprofits.",
+    "year": "2026",
+    "featured": false,
+    "order": 150,
+    "order2026": 49,
+    "featured2026": false
+  },
+  {
+    "id": "stacey-caughey",
+    "name": "Stacey Caughey",
+    "title": "VP Regulatory Compliance & Privacy and Deputy General Counsel",
+    "company": "Velera",
+    "photo": "images/Stacey-Caughey.jpg",
+    "linkedin": "https://www.linkedin.com/in/stacey-caughey-b5a7ba439",
+    "bio": "Stacey Caughey joined Velera in July 2015 and serves as Vice President of Regulatory Compliance & Privacy and Deputy General Counsel. A Certified Information Privacy Professional (CIPP/US), she brings extensive experience across compliance, privacy, and legal functions within the banking and credit union industries.\n\nIn her role, Ms. Caughey provides enterprise-wide leadership on regulatory compliance, privacy, and legal matters, and has developed and implemented key programs to support these functions across the organization. She has deep expertise in consumer protection and privacy law and is recognized for her strategic guidance on complex regulatory and risk management issues. In addition, she is an active advocate for inclusion and professional development, having served as a member and former leader of Velera's gender equality business resource group.",
+    "year": "2026",
+    "featured": false,
+    "order": 151,
+    "order2026": 55,
+    "featured2026": false
+  },
+  {
+    "id": "chris-walczyszyn",
+    "name": "Chris Walczyszyn",
+    "title": "Senior Associate",
+    "company": "Orrick",
+    "photo": "images/Chris-Walczyszyn.jpg",
+    "linkedin": "",
+    "bio": "Chris Walczyszyn is a Senior Associate in Orrick's Financial & Fintech Advisory group. He counsels fintechs, banks, and other financial industry clients on a wide range of regulatory, supervisory, and enforcement matters related to state and federal consumer financial laws, including the Truth in Lending Act (TILA) and the Electronic Fund Transfer Act (EFTA).",
+    "year": "2026",
+    "featured": false,
+    "order": 152,
+    "order2026": 28,
+    "featured2026": false
+  },
+  {
+    "id": "blake-mcclary",
+    "name": "Blake McClary",
+    "title": "Senior Director, Acceptance Partnerships",
+    "company": "Visa",
+    "photo": "images/Blake-McClary.jpg",
+    "linkedin": "https://www.linkedin.com/in/blakemcclary/",
+    "bio": "",
+    "year": "2026",
+    "featured": false,
+    "order": 153,
+    "order2026": 23,
+    "featured2026": false
+  },
+  {
+    "id": "derek-white",
+    "name": "Derek White",
+    "title": "Founder and CEO",
+    "company": "Primitive",
+    "photo": "images/Derek-White.jpg",
+    "linkedin": "https://www.linkedin.com/in/derek-white-99825ab/",
+    "bio": "Derek White is an internationally renowned business leader, investor and ecosystem builder, who has been at the forefront of financial services innovation for over two decades, a serial creator of many world firsts.\n\nAs Founder and CEO of primitive, he's building the ai operating system for financial services. This is his fourth cycle translating technology into FS.\n\nPrior to primitive, Derek led Galileo Financial Services as CEO, held a number of global C-Suite leadership roles across North America, EMEA & UK, Latam, and Asia Pacific.\n\nWith a focus on human-centric design and impact creation, notable achievements include helping to launch the world's first Internet bank, and spearheading the digital transformation of banking giants like Barclays, BBVA, and US Bank. His 'create amazing' design philosophy has led to groundbreaking services, such as mobile payments, award-winning banking apps, and the first fintech accelerator.\n\nAt Google Cloud Financial Services, Derek worked with Chairs, CEOs and C-Suites from global multi-nationals to start-ups, enabling them to catalyse their growth and redefine their operating strategies with Google's Cloud, AI and Data innovations.\n\nAway from work, he spends his free time in the mountains and lakes close to his family's home in Utah.",
+    "year": "2026",
+    "featured": false,
+    "order": 154,
+    "order2026": 31,
+    "featured2026": false
+  },
+  {
+    "id": "jonathon-ritchie",
+    "name": "Jonathon Ritchie",
+    "title": "VP, Head of Operations and Customer Success",
+    "company": "Spring Labs",
+    "photo": "images/Jonathon-Ritchie.jpg",
+    "linkedin": "https://www.linkedin.com/in/jonathoneritchie/",
+    "bio": "",
+    "year": "2026",
+    "featured": false,
+    "order": 155,
+    "order2026": 41,
+    "featured2026": false
+  },
+  {
+    "id": "kellie-medesy",
+    "name": "Kellie Medesy",
+    "title": "Compliance Program Specialist",
+    "company": "First Financial Bank",
+    "photo": "images/Kellie-Medesy.jpg",
+    "linkedin": "https://www.linkedin.com/in/medesy",
+    "bio": "Kellie Medesy is a Compliance Program Specialist at First Financial Bank in Texas. Having spent much of her career in customer-focused roles, she brings a unique but practical perspective on compliance and risk management. Her background includes complaint management, CRA and Fair Lending analysis and fraud prevention. Known for her attention to detail, critical thinking skills, and clear communication, Kellie approaches compliance with both the customer and regulatory expectations in mind. She holds a B.A. in Criminology and Criminal Justice from The University of Texas at Arlington and an MBA from Western Governors University.",
+    "year": "2026",
+    "featured": false,
+    "order": 156,
     "order2026": 43,
+    "featured2026": false
+  },
+  {
+    "id": "simone-garreau",
+    "name": "Simone Garreau",
+    "title": "CEO and Co-Founder",
+    "company": "Prism Layer",
+    "photo": "images/Simone-Garreau.jpg",
+    "linkedin": "https://www.linkedin.com/in/simone-garreau-b3571b10",
+    "bio": "Simone Garreau is the founder and CEO of Prism Layer, where she is leading a shift in enterprise risk management from slow, manual assessments to faster, more informed decisions. With more than 15 years of experience across fintech and financial services, including leadership roles at Block, Remitly, Robinhood, and Western Union, Simone has seen how often critical risk decisions depend on information scattered across teams and systems. She founded Prism Layer to bring that information together and help companies act on it with clarity, speed, and accountability.",
+    "year": "2026",
+    "featured": false,
+    "order": 157,
+    "order2026": 54,
+    "featured2026": false
+  },
+  {
+    "id": "tr-brown",
+    "name": "T.R. Brown",
+    "title": "SVP of Operations",
+    "company": "HFD",
+    "photo": "images/TR-Brown.jpg",
+    "linkedin": "https://www.linkedin.com/in/t-r-brown-a808b47",
+    "bio": "",
+    "year": "2026",
+    "featured": false,
+    "order": 158,
+    "order2026": 57,
     "featured2026": false
   }
 ]
